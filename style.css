@@ -1,0 +1,36 @@
+body{
+    background: #114232;
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    color: #87A922;
+
+}
+#gameContainer{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: #FCDC2A;
+}
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+button{
+    width: 150px;
+    height: 40px;
+    font-family: "Permanent Marker", cursive;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #FCDC2A;
+    background: #020202;
+    font-size: 18px;
+}
