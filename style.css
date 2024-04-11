@@ -13,7 +13,7 @@ body{
 
 }
 #gameContainer{
-    font-family: "Permanent Marker", cursive;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     color: #FCDC2A;
 }
@@ -26,7 +26,8 @@ body{
 button{
     width: 150px;
     height: 40px;
-    font-family: "Permanent Marker", cursive;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
     border-radius: 5px;
     outline: none;
     border: none;
